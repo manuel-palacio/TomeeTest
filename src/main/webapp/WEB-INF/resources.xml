@@ -1,0 +1,8 @@
+<resources>
+    <Resource id="booksDb" type="DataSource">
+        JdbcDriver org.postgresql.Driver
+        JdbcUrl jdbc:postgresql://localhost/testdb
+        UserName test
+        Password test
+    </Resource>
+</resources>
